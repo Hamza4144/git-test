@@ -1,0 +1,4 @@
+deployment:
+    tasks:
+      -export DEPLOYPATH = /home/acificfm/public_html/git-test/
+      -/bin/cp * $DEPLOYPATH
